@@ -1,31 +1,36 @@
-#include<iostream>
-using namespace std ;
-int main()
-{
-	string name;
-	int marks;
-    float id;
-    int age;
+# C++ Learning Repository 🚀
 
+## 👨‍💻 About This Project
+This repository contains my C++ programming practice from basic to intermediate level.  
+It helps me build strong logic and programming skills.
 
-   cout<<"-----------ENTER DETAILS-----------"<<endl;
+---
 
-    cout<<"Enter the name :"<<endl;
-    cin>>name;
-    cout<<"Enter the marks :"<<endl;
-    cin>>marks;
-    cout<<"Enter the id :"<<endl;
-    cin>>id;
-    cout<<"Enter the age :"<<endl;
-    cin>>age;
+## 📚 Topics Covered
 
-    cout<<"----------You enter following details----------"<<endl;
+- Input / Output in C++
+- Operators (Arithmetic, Logical, Relational)
+- Loops (for, while, do-while)
+- Functions
+- Arrays (1D & 2D)
+- Pointers
+- Structs
+- File Handling
 
-     cout<<"name is:\n"<<name<<endl;
-     cout<<"marks is :\n"<<marks<<endl;
-     cout<<"id is :\n"<<id<<endl;
-     cout<<"age is :\n"<<age<<endl;
+---
 
+## 🧠 Purpose
 
-	return 0;
-}
+This project is created to:
+- Practice C++ programming
+- Improve problem-solving skills
+- Build strong programming foundation
+- Prepare for BSSE (Software Engineering)
+
+---
+
+## ⚙️ How to Run Code
+
+```bash
+g++ filename.cpp -o output
+./output
